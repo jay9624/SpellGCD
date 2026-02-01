@@ -8,7 +8,7 @@ local settings = require('settings');
 
 -- Default settings
 local default_settings = T{
-    is_locked = true,
+    is_locked = false,
     setup_mode = true,
 };
 local aftercast_settings = settings.load(default_settings);
