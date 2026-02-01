@@ -3,4 +3,4 @@ addon for ffxi horizon to display a timer for the global spell lockout as a prog
 
 place spellgcd into your addons folder
 
-/spellgcd setup - lets you lock or unlock the progress bar, shift click and drag to move
+/spellgcd setup - lets you lock or unlock the progress bar, click and drag to move
