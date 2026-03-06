@@ -1,6 +1,6 @@
 addon.name      = 'SpellGCD';
 addon.author    = 'Jayy';
-addon.version   = '1';
+addon.version   = '1.1';
 addon.desc      = 'Displays information about the players spell recast time.';
 
 local imgui    = require('imgui');
@@ -16,7 +16,7 @@ local aftercast_settings = settings.load(default_settings);
 -- State variables
 local is_active = false;
 local start_time = 0;
-local duration = 2.5;
+local duration = 2;
 
 ashita.events.register('unload', 'unload_cb', function ()
     settings.save();
@@ -88,4 +88,5 @@ ashita.events.register('command', 'command_cb', function (e)
         end
     end
     return false;
+
 end);
